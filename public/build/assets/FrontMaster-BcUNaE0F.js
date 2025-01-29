@@ -1,0 +1,1 @@
+import{j as r}from"./app-D_W3hKl1.js";import s from"./Footer-osmuTJyN.js";import o from"./Nav-DKNr4rQr.js";function m({children:t}){return r.jsx(r.Fragment,{children:r.jsxs("div",{className:"bg-light",children:[r.jsx(o,{})," ",r.jsx("main",{style:{marginTop:"100px"},children:t}),r.jsx(s,{})," "]})})}export{m as default};

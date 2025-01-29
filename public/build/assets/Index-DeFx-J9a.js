@@ -1,0 +1,1 @@
+import{V as o,j as r}from"./app-D_W3hKl1.js";import t from"./FrontMaster-BcUNaE0F.js";import m from"./Offer-CuLo4poK.js";/* empty css                */import i from"./Slider-CLB0jMxG.js";import"./Footer-osmuTJyN.js";import"./Nav-DKNr4rQr.js";function a(){return o().props,r.jsx(r.Fragment,{children:r.jsxs(t,{children:[r.jsx(i,{}),r.jsx(m,{})]})})}export{a as default};
