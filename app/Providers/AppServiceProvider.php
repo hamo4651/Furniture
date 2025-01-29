@@ -25,7 +25,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        CleanExpiredCoupons::dispatchSync();
+        // CleanExpiredCoupons::dispatchSync();
         Vite::prefetch(concurrency: 3);
         Inertia::share([
             'flash' => function () {
