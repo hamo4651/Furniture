@@ -1,0 +1,69 @@
+.locations-section {
+    position: relative;
+    width: 100%;
+    height: 400px; /* ارتفاع القسم */
+  }
+
+  .locations-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* لضبط الصورة */
+  }
+
+  .locations-content {
+    position: absolute;
+    top: 50%;
+    left: 20px; /* بدلاً من المنتصف، يكون على الشمال */
+    transform: translateY(-50%); /* لنقل النص في منتصف الارتفاع */
+    text-align: left; /* النصوص تكون على اليسار */
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5); /* خلفية شفافة خلف النص */
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  .locations-content h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #ddd;
+    margin-bottom: 10px;
+  }
+
+  .locations-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+  }
+.store-section {
+  margin: 40px 0;
+}
+
+.map-frame {
+  width: 100%;
+  height: 300px;
+  border: 0;
+  border-radius: 8px;
+}
+
+.store-details h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.store-details p {
+  color: #555;
+  margin: 10px 0;
+}
+
+.store-details .contact-info {
+  margin-top: 10px;
+}
+
+.store-details .contact-info a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.store-details .contact-info a:hover {
+  text-decoration: underline;
+}

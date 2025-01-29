@@ -1,0 +1,117 @@
+.navbar-custom {
+    background-color: transparent;
+    transition: background-color 0.4s ease;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-custom.scrolled {
+    background-color: #fff; /* اللون عند النزول */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: bold;
+    font-size: 20px;
+    color: #007bff;
+    transition: color 0.4s ease;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #333;
+    transition: color 0.4s ease;
+}
+
+.navbar-custom.scrolled .navbar-nav .nav-link {
+    color: #666;
+}
+
+.navbar-custom .navbar-toggler {
+    border: none;
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%2833, 37, 41, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* التأثير على العناصر عند التحويم */
+.nav-link.hover-effect {
+    position: relative;
+    display: inline-block;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.nav-link.hover-effect::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: black;
+    transition: width 0.3s ease;
+}
+
+.nav-link.hover-effect:hover {
+    color: black;
+}
+
+.nav-link.hover-effect:hover::after {
+    width: 100%;
+}
+
+/* القائمة المنسدلة */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    padding: 10px 0;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-item {
+    padding: 10px 20px;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: black;
+}
+/* التأثير على العناصر داخل القائمة المنسدلة */
+.dropdown-item.hover-effect {
+    position: relative;
+    display: inline-block;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.dropdown-item.hover-effect::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: black;
+    transition: width 0.3s ease;
+}
+
+.dropdown-item.hover-effect:hover {
+    color: black;
+}
+
+.dropdown-item.hover-effect:hover::after {
+    width: 100%;
+}

@@ -1,0 +1,80 @@
+/* Styles for the MyOrders Component */
+.container {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.header-banner img {
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.table-striped tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.table th, .table td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table th {
+    background-color: #d8e5f1;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.table td {
+    font-size: 1rem;
+    color: #333;
+}
+
+.table-bordered {
+    border: 1px solid #ddd;
+}
+
+.loading-indicator {
+    font-size: 1.25rem;
+    color: #007bff;
+    font-weight: bold;
+}
+
+button.btn-danger {
+    background-color: #dc3545;
+    color: white;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button.btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Additional style for no orders message */
+.text-center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* For responsive tables */
+@media screen and (max-width: 768px) {
+    .table th, .table td {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+}
