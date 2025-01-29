@@ -1,0 +1,5 @@
+services:
+  - name: furniture
+    type: web
+    env: php
+    root: /workspace/public
